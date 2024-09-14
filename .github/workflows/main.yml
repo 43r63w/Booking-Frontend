@@ -24,7 +24,7 @@ jobs:
        context: .
        file: ./Dockerfile
        push: true
-       tags: 43r63w/booking-frontent:dev
+       tags: 43r63w/booking-frontend:dev
       
     
 
