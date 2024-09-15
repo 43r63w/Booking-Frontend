@@ -1,0 +1,24 @@
+<mat-toolbar>
+  <span class="material-symbols-outlined" style="font-size: 64px"> 123 </span>
+
+  <div class="menu">
+     <span class="menu-component"> Home</span>
+    <span class="menu-component"> Product</span>
+    <span [matMenuTriggerFor]="menu" class="menu-component">Category</span>
+  </div>
+
+  <span class="spacer"></span>
+  <div class="m-1">
+    <button class="square-btn">Login</button>
+    <button class="square-btn">Register</button>
+  </div>
+</mat-toolbar>
+
+
+
+
+<mat-menu #menu>
+ <button mat-menu-item>   
+    <span>Fruits</span>
+  </button>
+</mat-menu>

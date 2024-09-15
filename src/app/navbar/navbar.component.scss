@@ -1,0 +1,55 @@
+
+.menu{
+    display: flex;
+    flex-direction: row;   
+    padding: 35px;
+    
+
+
+.menu-component {
+    margin-right: 14px;  
+    height: 25px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    font-size: 1rem;
+}
+}
+
+
+
+.menu-component:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: blue;  
+}
+
+
+
+.spacer{
+    flex: 1 1 auto;
+}
+
+.m-1{
+   padding: 20px;
+}
+
+.square-btn{
+    background: transparent;
+    border: transparent;
+    font-size: 16px;
+    height: 45px;
+}
+
+
+.square-btn:hover{
+    background:gainsboro;
+    border-radius: 5px;
+    height: 45px;
+
+    transition: ease 0.25s;
+}
